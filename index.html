@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Ez - Snapshot Highlights Ez</title>
+    <link rel="stylesheet" href="mc.css">
+    <link rel="icon" type="image/jpeg" href="mc-logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <br>
+            <h1>Minecraft Next Game Drop</h1>
+            <p>Explore the Latest Snapshots for the Upcoming Update</p>
+            <button id="mode-toggle">Toggle Day/Night</button>
+            <button id="rain-toggle">Toggle Rain</button>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#features">New Features</a></li>
+            <li><a href="#snapshots">Snapshots</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Welcome to the Future of Minecraft</h2>
+            <p>
+                Mojang has shifted from major updates like 1.22 to frequent "game drops." The next drop, post-Spring to Life (1.21.5), introduces new mobs and mechanics. Snapshots 25w03a to 25w18a (Jan-Apr 2025) reveal what's next. Explore now!
+            </p>
+        </section>
+
+        <section id="features">
+            <h2>New Features in the Next Game Drop</h2>
+            <div class="feature-grid">
+                <div class="feature-card" id="cow_variants">
+                    <img src="new-cow-variants.jpg" alt="New Cow Variants in Minecraft Snapshot 25w05a">
+                    <h3>New Cow Variants</h3>
+                    <p>Cold cows in snowy biomes; warm cows in deserts and badlands.</p>
+                </div>
+                <div class="feature-card" id="happyghast">
+                    <img src="happy-ghast.jpg" alt="Happy Ghast in Minecraft Snapshot 25w18a">
+                    <h3>Happy Ghasts & Ghastlings</h3>
+                    <p>Raise ghastlings from dried ghasts and ride happy ghasts!</p>
+                </div>
+                <div class="feature-card"  id="locator_bar">
+                    <img src="locator-bar.jfif" alt="Locator Bar in Minecraft Snapshot 25w15a">
+                    <h3>Locator Bar</h3>
+                    <p>Find friends in multiplayer with a toggleable UI.</p>
+                </div>
+                <div class="feature-card" id="firefly">
+                    <img src="fireflybush.png" alt="Firefly Bush in Minecraft Snapshot 25w05a">
+                    <h3>Firefly Bush</h3>
+                    <p>Light level 2 bushes for ambient build lighting.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="lead-mechanics.jfif" alt="Updated Lead Mechanics in Minecraft">
+                    <h3>Updated Lead Mechanics</h3>
+                    <p>Leash mobs to boats or create caravans.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="harness-crafting.webp" alt="Harness Crafting Recipe in Minecraft">
+                    <h3>Harness Crafting</h3>
+                    <p>Craft harnesses for happy ghasts with wool colors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="snapshots">
+            <h2>Snapshot Breakdown (Snapshot Ez)</h2>
+            <div class="slideshow-container">
+                <div class="slide" >
+                    <img src="new-cow-variants.jpg" alt="New Cow Variants in Minecraft Snapshot 25w05a">
+                    <div class="caption">25w05a: New cow variants.</div>
+                </div>
+                <div class="slide" >
+                    <img src="fireflybush.png" alt="Firefly Bush in Minecraft Snapshot 25w05a">
+                    <div class="caption">25w05a: Firefly Bush.</div>
+                </div>
+                <div class="slide" id="locator_bar">
+                    <img src="locator-bar.jfif" alt="Locator Bar in Minecraft Snapshot 25w15a">
+                    <div class="caption">25w15a: Locator bar for multiplayer.</div>
+                </div>
+                <div class="slide" id="happyghast">
+                    <img src="happy-ghast.jpg" alt="Happy Ghast in Minecraft Snapshot 25w18a">
+                    <div class="caption">25w18a: Updated lead and ghast recipes.</div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+            <div class="snapshot-timeline">
+                <div class="snapshot">
+                    <h3>Snapshot 25w03a (Jan 15, 2025)</h3>
+                    <p>Game test updates, leaf litter, saddle retention.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w05a (Feb 3, 2025)</h3>
+                    <p>Cow variants, firefly bush, ambient sounds.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w10a (Mar 5, 2025)</h3>
+                    <p>Sheep textures, tntExplodes gamerule, new panorama.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w15a (Apr 8, 2025)</h3>
+                    <p>Harness, "Heart Transplanter," locator bar.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w16a (Apr 15, 2025)</h3>
+                    <p>Lead-to-boat mechanics, cloud rendering.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w17a (Apr 22, 2025)</h3>
+                    <p>Finalized locator bar, Realms UI update.</p>
+                </div>
+                <div class="snapshot">
+                    <h3>Snapshot 25w18a (Apr 29, 2025)</h3>
+                    <p>Lead recipe (string), dried ghast recipe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback">
+            <h2>Join the Community</h2>
+            <p>
+                Share feedback on the <a href="https://feedback.minecraft.net" target="_blank">Minecraft Feedback Site</a>. Join the <a href="https://discord.gg/minecraft" target="_blank">Minecraft Discord</a>.
+            </p>
+            <p><strong>Note:</strong> Back up worlds before testing snapshots!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Minecraft Next Game Drop Fan Site. Minecraft is a trademark of Ezzz Studios.</p>
+    </footer>
+
+    <script src="Mc.js"></script>
+</body>
+</html>
